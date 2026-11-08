@@ -193,7 +193,15 @@ The tests run the whole flow against a scripted fake of the Telegram API: join g
 requests, hand-offs, spinners that the bot edits, rate limits, the adaptive pace, the sweep and
 cleanup. Nothing in them talks to Telegram.
 
+## Acknowledgements
+
+Thank you to [AmirHBuilds](https://github.com/AmirHBuilds) for
+[fuckjoin](https://github.com/AmirHBuilds/fuckjoin). It showed how this job can be done, joining
+the channels a bot asks for, collecting the files and cleaning up afterwards, and it is the
+reference this library follows. This project started as a Go rewrite of that idea so it could run
+inside another program with an existing Telegram session. Go and star the original if this is useful to you.
+
 ## License
 
 MIT. See [LICENSE](LICENSE). Inspired by [fuckjoin](https://github.com/AmirHBuilds/fuckjoin) by
-AmirHBuilds (MIT).
+AmirHBuilds (MIT); no code is copied from it.
