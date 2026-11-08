@@ -1,0 +1,6 @@
+# Login sessions and state. A session file is a login for your Telegram account.
+data/
+*.session
+session.json
+.env
+*.exe
