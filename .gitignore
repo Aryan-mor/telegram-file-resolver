@@ -4,3 +4,8 @@ data/
 session.json
 .env
 *.exe
+
+# graphify knowledge graph and assistant files (rebuild with: graphify update .)
+graphify-out/
+.claude/
+CLAUDE.md
